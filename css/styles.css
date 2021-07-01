@@ -1,0 +1,44 @@
+/* All styles */
+
+@import url("../css/header-footer.css");
+@import url("../css/forms.css");
+@import url("../css/slideshow.css");
+@import url("../css/categories.css");
+
+/* Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap"); /*font-family: 'Comfortaa', cursive;*/
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap"); /*font-family: 'Kanit', sans-serif;*/
+@font-face {
+  font-family: SF New Republic;
+  src: url("../fonts/SF New Republic.ttf"),
+    url("../fonts/SF New Republic SC.ttf"),
+    url("../fonts/SF New Republic SC Bold.ttf");
+}
+@font-face {
+  font-family: CaviarDreams;
+  src: url("../fonts/CaviarDreams.ttf"), url("../fonts/CaviarDreams_Bold.ttf");
+}
+@font-face {
+  font-family: BebasNeue-Regular;
+  src: url("../fonts/BebasNeue-Regular.ttf");
+}
+
+
+/* General */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #dedede;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 1000px;
+  width: 100%;
+  height: 100%;
+}
+
+
